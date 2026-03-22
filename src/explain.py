@@ -18,7 +18,6 @@ def _to_float(x):
 
 
 
-# Clinical interpretation
 
 
 def clinical_interpretation(feature, value):
@@ -66,7 +65,6 @@ def clinical_interpretation(feature, value):
 
 
 
-# Main explanation function
 
 
 def explain_prediction(model, scaled_df, original_df):
@@ -115,7 +113,6 @@ def explain_prediction(model, scaled_df, original_df):
     df["abs_shap"] = np.abs(df["shap"])
     df = df.sort_values("abs_shap", ascending=False)
 
-    # Hide engineered features
     hidden_features = [
         "metabolic_risk",
         "high_risk_comorbidity",
