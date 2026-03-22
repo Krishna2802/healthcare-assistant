@@ -4,8 +4,6 @@ from sentence_transformers import SentenceTransformer
 from llama_cpp import Llama
 
 
-# Loading embedding model
-
 
 embed_model = SentenceTransformer(
     "sentence-transformers/all-MiniLM-L6-v2"
