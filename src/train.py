@@ -16,16 +16,13 @@ df = pd.read_csv("data/Diabetes.csv")
 
 print("Dataset Shape:", df.shape)
 
-#removing duplicates
 
 df = df.drop_duplicates()
 
 print("Shape after duplicate removal:", df.shape)
 
 
-#feature engineering
 
-print("Creating engineered features...")
 
 df["age_group"] = pd.cut(
     df["age"],
@@ -44,14 +41,10 @@ df["metabolic_risk"] = (
 ).astype(int)
 
 
-#feature encoding
-
-
 
 
 df = df[df["smoking_history"] != "No Info"]
 
-print("Encoding categorical features...")
 
 le_gender = LabelEncoder()
 le_smoking = LabelEncoder()
@@ -62,10 +55,6 @@ df["smoking_history"] = le_smoking.fit_transform(
     df["smoking_history"].astype(str)
 )
 
-
-#outlier removal
-
-print("Removing outliers...")
 
 for col in ["bmi","HbA1c_level","blood_glucose_level"]:
 
@@ -207,9 +196,6 @@ print(classification_report(y_test,preds))
 
 
 
-
-print("\nSaving model")
-
 os.makedirs("models", exist_ok=True)
 
 best_model.save_model("models/xgb_model.json")
@@ -219,4 +205,3 @@ joblib.dump(le_gender,"models/le_gender.joblib")
 joblib.dump(le_smoking,"models/le_smoking.joblib")
 joblib.dump(X.columns.tolist(),"models/feature_columns.joblib")
 
-print("\nTraining completed successfully!")
