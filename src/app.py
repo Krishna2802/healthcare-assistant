@@ -8,8 +8,6 @@ from llm_rag import ask_llm
 
 
 
-# Loading model 
-
 
 model = xgb.XGBClassifier()
 model.load_model("models/xgb_model.json")
