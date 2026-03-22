@@ -1,0 +1,19 @@
+Diabetes is diagnosed through laboratory tests that measure blood glucose levels and long-term glucose control.
+
+1. Fasting Blood Glucose (FBG): Measures blood glucose after an overnight fast.
+   - Normal: 70–99 mg/dL
+   - Prediabetes: 100–125 mg/dL
+   - Diabetes: ≥126 mg/dL on two separate occasions
+
+2. Oral Glucose Tolerance Test (OGTT): Measures blood glucose two hours after drinking a glucose-rich beverage.
+   - Diabetes: ≥200 mg/dL at 2 hours
+   - Prediabetes: 140–199 mg/dL at 2 hours
+
+3. HbA1c Test: Reflects average blood glucose over 2–3 months.
+   - Normal: <5.7%
+   - Prediabetes: 5.7–6.4%
+   - Diabetes: ≥6.5%
+
+4. Random Blood Glucose Test: Diabetes can be diagnosed if random blood glucose is ≥200 mg/dL in presence of symptoms.
+
+Regular monitoring and early diagnosis are essential to prevent complications. Individuals with prediabetes should undergo lifestyle interventions to prevent progression to diabetes.

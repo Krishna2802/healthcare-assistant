@@ -1,0 +1,13 @@
+Diabetes mellitus is a chronic metabolic disorder characterized by elevated blood glucose levels, which can lead to serious damage to the heart, blood vessels, eyes, kidneys, and nerves if left untreated. 
+
+Insulin is a hormone produced by the pancreas that helps glucose from food enter the body's cells to be used for energy. Diabetes occurs when the body either does not produce enough insulin or cannot effectively use the insulin it produces.
+
+Types of diabetes:
+
+1. Type 1 Diabetes: This is an autoimmune condition in which the body's immune system attacks and destroys insulin-producing beta cells in the pancreas. It often develops in childhood or adolescence but can appear in adults. People with type 1 diabetes require lifelong insulin therapy.
+
+2. Type 2 Diabetes: The most common form of diabetes, usually occurring in adults but increasingly found in children and adolescents due to rising obesity rates. It is characterized by insulin resistance and relative insulin deficiency. Type 2 diabetes can often be managed with lifestyle interventions, oral medications, and sometimes insulin.
+
+3. Gestational Diabetes: Develops during pregnancy and usually resolves after childbirth. However, it increases the mother's risk of developing type 2 diabetes later in life, and the child may also have a higher risk of obesity and diabetes.
+
+Other rare forms of diabetes include monogenic diabetes, such as MODY (Maturity-Onset Diabetes of the Young), and secondary diabetes caused by medications, diseases of the pancreas, or hormonal disorders.
